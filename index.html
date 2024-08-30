@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Candidato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#semblanza">Semblanza</a></li>
+                <li><a href="#plan">Plan de Trabajo</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="banner">
+        <div class="banner-content">
+            <img src="./images/foto.jpg" alt="Foto del Candidato" class="foto-perfil">
+            <h1>Dr. Gabriel Kantún Montiel</h1>
+            <p>Una Facultad Donde Cada ...</p>
+        </div>
+    </section>
+
+    <section id="semblanza" class="contenido">
+        <h2>Semblanza</h2>
+        <div class="semblanza">
+            <img src="foto-perfil.jpg" alt="Foto del Candidato" class="foto-perfil">
+            <p>Biografía del candidato. Información sobre trayectoria profesional, educativa y personal.</p>
+            <h3>Logros y Experiencia</h3>
+            <ul>
+                <li>Logro 1</li>
+                <li>Logro 2</li>
+                <li>Logro 3</li>
+            </ul>
+            <h3>Citas o Testimonios</h3>
+            <blockquote>
+                <p>"Cita de una persona influyente o colega."</p>
+                <footer>- Nombre</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="plan" class="contenido">
+        <h2>Plan de Trabajo</h2>
+        <p>Introducción al plan del candidato.</p>
+        <h3>Objetivos Principales</h3>
+        <ul>
+            <li>Objetivo 1</li>
+            <li>Objetivo 2</li>
+            <li>Objetivo 3</li>
+        </ul>
+        <h3>Estrategias y Acciones</h3>
+        <p>Descripción de las estrategias y acciones.</p>
+        <h3>Cronograma</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Etapa</th>
+                    <th>Fecha</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Etapa 1</td>
+                    <td>Fecha 1</td>
+                </tr>
+                <tr>
+                    <td>Etapa 2</td>
+                    <td>Fecha 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="videos" class="contenido">
+        <h2>Videos</h2>
+        <div class="video-gallery">
+            <div class="video-item">
+                <h3>Video 1</h3>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                <p>Descripción del video 1.</p>
+            </div>
+            <div class="video-item">
+                <h3>Video 2</h3>
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                <p>Descripción del video 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contenido">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: contacto@ejemplo.com</p>
+            <p>Teléfono: +123456789</p>
+            <p>Dirección: Calle 123</p>
+            <p><a href="https://www.facebook.com/candidato">Facebook</a> | <a href="https://twitter.com/candidato">Twitter</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gabriel Kantún Montiel. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
